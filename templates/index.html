@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image and Video Dehazing</title>
+</head>
+<body>
+    <h1>Image Dehazing</h1>
+    <form method="POST" action="/dehaze_image" enctype="multipart/form-data">
+        <input type="file" name="image">
+        <input type="submit" value="Dehaze Image">
+    </form>
+
+    <h1>Video Dehazing</h1>
+    <form method="POST" action="/dehaze_video" enctype="multipart/form-data">
+        <input type="file" name="video">
+        <input type="submit" value="Dehaze Video">
+    </form>
+</body>
+</html>
